@@ -6,3 +6,5 @@ $ git commit -m "...."（确认提交到仓库）
 
 $ git status（查看仓库当前状态）
 $ git diff xxx.txt（查看文件修改）
+
+$ git log (查看提交历史记录)
