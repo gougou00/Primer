@@ -1,1 +1,5 @@
-i'm studying font-end.
+$ pwd（显示当前目录）
+$ git init（把当前目录变成Git可以管理的仓库）
+
+$ git add XXX.txt（把文件添加到仓库）
+$ git commit -m "...."（确认提交到仓库）
