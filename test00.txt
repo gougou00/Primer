@@ -1,4 +1,4 @@
-$ pwd（显示当前目录）
+﻿$ pwd（显示当前目录）
 $ git init（把当前目录变成Git可以管理的仓库）
 
 $ git add XXX.txt（把文件添加到仓库）
@@ -11,4 +11,3 @@ $ git log (查看提交历史记录）
 
 
 github
-wo you xiuggaile
