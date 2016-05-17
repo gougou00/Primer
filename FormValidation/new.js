@@ -55,4 +55,33 @@ window.onload = function() {
 			name_msg.innerHTML = '<i class="ok"></i>OK!'
 		}
 	}
+
+
+	pwd.onfocus = function() {
+		pwd_msg.style.display = "block";
+		pwd_msg.innerHTML = '<i class="ati"></i>6-16个字符，请使用字母加数字的组合密码。'
+	}
+
+	pwd.onkeyup = function() {
+		// 大于5字符为“中”
+		if (this.value.length > 5) {
+			aEm[1].className = "active";
+		}
+	}
+
+	pwd.onblur = function() {
+
+	}
+
+	pwd2.onfocus = function() {
+
+	}
+
+	pwd2.onkeyup = function() {
+
+	}
+
+	pwd2.onblur = function() {
+		
+	}
 }

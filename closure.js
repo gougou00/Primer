@@ -28,3 +28,4 @@ function f1() {
 
 var result=f1();
 result();	//999
+
